@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 
 // components
@@ -9,7 +9,7 @@ import MyFooter from "@/components/Footer";
 // theme provider
 import { ThemeProvider } from "@/components/ThemeProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+const notosans = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio | Suchanart",
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={notosans.className}>
         <ThemeProvider>
           <MyHeader />
           {children}

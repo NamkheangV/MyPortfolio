@@ -60,8 +60,25 @@
   }
 }
 
+
+.h1-logo {
+  @apply text-4xl font-bold;
+}
+
 .h1 {
   @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
+}
+
+.h2 {
+  @apply text-5xl font-bold;
+}
+
+.h3 {
+  @apply text-3xl font-bold;
+}
+
+.h4 {
+  @apply text-[22px] font-semibold;
 }
 
 .subtitle {
@@ -71,4 +88,3 @@
 .section-title {
   @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];
 }
-

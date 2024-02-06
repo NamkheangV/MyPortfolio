@@ -13,15 +13,15 @@ const icons = [
     name: <RiMailFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/NamkheangV",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.instagram.com/_iixxix/",
     name: <RiInstagramFill />,
   },
   {
-    path: "/",
+    path: "https://discord.gg/Q7VpBy4M",
     name: <RiDiscordFill />,
   },
 ];

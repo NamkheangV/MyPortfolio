@@ -13,9 +13,12 @@ const config = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
     extend: {
       colors: {
@@ -71,13 +74,12 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-slow": "spin 12s linear infinite",
       },
       backgroundImage: {
-        hero_shape: "url(/images/shape-1.svg)",
-        hero_shape2_light: "url(/images/shape-2-light.svg)",
-        hero_shape2_dark: "url(/images/shape-2-dark.svg)",
         dots_light: 'url("/images/dots-light.svg")',
         dots_dark: 'url("/images/dots-dark.svg")',
+        cat: 'url("/images/cat.png")',
       },
     },
   },

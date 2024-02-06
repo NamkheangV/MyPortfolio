@@ -1,12 +1,15 @@
+"use client";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Download, Send } from "lucide-react";
-import { RiArrowDownSLine } from "react-icons/ri";
+import MyImage from "../MyImage";
 import Socials from "@/components/Socials";
+import { Download, Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { RiArrowDownSLine } from "react-icons/ri";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:p-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-nono">
+    <section className="py-12 xl:py-24 h-[84vh] xl:p-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           {/* Text */}
@@ -15,10 +18,21 @@ const Hero = () => {
               Frontend Developer
             </div>
             <h1 className="h1 mb-1">Hello, My name is Suchanart</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I'm junior programmer. Practice for my super fancy website and
-              hope that this website can show you what can I do.
-            </p>
+            {/* <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+              I'm junior programmer. Practice for my super fancy website.
+            </p> */}
+            <TypeAnimation
+              className="subtitle max-w-[490px] mx-auto xl:mx-0"
+              sequence={[
+                "I am Frontend-Web and Application Programmer.",
+                1000,
+                "now I'm practicing for my fancy projects.",
+                1000,
+              ]}
+              wrapper="span"
+              speed={10}
+              repeat={Infinity}
+            />
 
             {/* Button */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
@@ -44,9 +58,10 @@ const Hero = () => {
             {/* <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
               <MyImage
                 containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-                imgSrc="/images/hero.png"
+                imgSrc="/images/Head01.png"
               />
             </div> */}
+            <img src="/images/Head01.png" alt="" className="max-h-[480px]" />
           </div>
         </div>
 
