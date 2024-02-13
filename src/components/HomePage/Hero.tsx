@@ -18,9 +18,7 @@ const Hero = () => {
               Frontend Developer
             </div>
             <h1 className="h1 mb-1">Hello, My name is Suchanart</h1>
-            {/* <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I'm junior programmer. Practice for my super fancy website.
-            </p> */}
+            
             <TypeAnimation
               className="subtitle max-w-[490px] mx-auto xl:mx-0"
               sequence={[

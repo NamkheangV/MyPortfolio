@@ -16,6 +16,7 @@
     "@radix-ui/react-tabs": "^1.0.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "embla-carousel-react": "^8.0.0-rc22",
     "framer-motion": "^11.0.3",
     "lucide-react": "^0.316.0",
     "next": "14.1.0",
@@ -24,7 +25,7 @@
     "react-dom": "^18",
     "react-icons": "^5.0.1",
     "react-type-animation": "^3.2.0",
-    "swiper": "^11.0.5",
+    "swiper": "^11.0.6",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },
