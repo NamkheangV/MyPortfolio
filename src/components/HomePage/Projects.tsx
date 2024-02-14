@@ -13,53 +13,52 @@ import {
 const ProjectData = [
   {
     image: "/images/work/1.png",
-    category: "React",
-    name: "Project 1",
+    category: "React js",
+    name: "Project 01",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
   {
     image: "/images/work/2.png",
-    category: "React",
-    name: "Project 1",
+    category: "Vue js",
+    name: "Project 02",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
   {
     image: "/images/work/3.png",
-    category: "React",
-    name: "Project 1",
+    category: "React js",
+    name: "Project 03",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
   {
     image: "/images/work/4.png",
-    category: "React",
-    name: "Project 1",
+    category: "Next js",
+    name: "Project 04",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
   {
     image: "/images/work/2.png",
     category: "React",
-    name: "Project 1",
+    name: "Project 05",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
   {
     image: "/images/work/4.png",
     category: "React",
-    name: "Project 1",
+    name: "Project 06",
     description: "This is a project description",
     link: "/myprojects",
-    github: "/"
+    github: "/",
   },
-  
 ];
 
 const MyProjects = () => {
@@ -69,8 +68,7 @@ const MyProjects = () => {
         {/* Text */}
         <div
           className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left 
-          mb-12 xl:h-[400px] flex flex-col justify-center items-center 
-          xl:items-start"
+          mb-12 xl:h-[400px] flex flex-col justify-center"
         >
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
@@ -84,9 +82,9 @@ const MyProjects = () => {
 
         {/* Slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
-          <Carousel className="">
+          <Carousel>
             <CarouselContent>
-              {ProjectData.slice(0, 6).map((project, index) => {
+              {ProjectData.slice(0, 4).map((project, index) => {
                 return (
                   <CarouselItem key={index} className="lg:basis-1/2">
                     <ProjectCard project={project} />
@@ -95,10 +93,6 @@ const MyProjects = () => {
               })}
             </CarouselContent>
           </Carousel>
-
-          {/* {ProjectData.slice(0, 4).map((project, index) => {
-            return <ProjectCard project={project} />;
-          })} */}
         </div>
       </div>
     </section>
