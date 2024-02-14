@@ -15,7 +15,7 @@ const MyFooter = () => {
 
           {/* Copy right */}
           <div className="text-muted-foreground">
-            Copyright &copy; Suchanart Khumbungkhla. All right reserved.
+            Copyright &copy; Suchanart K. All right reserved.
           </div>
         </div>
       </div>
