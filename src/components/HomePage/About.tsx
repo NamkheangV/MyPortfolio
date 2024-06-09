@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const infoData = [
   { icon: <User2 size={20} />, text: "Suchanart Khumbungkhla" },
-  { icon: <PhoneCall size={20} />, text: "+6694-398-6347" },
+  { icon: <PhoneCall size={20} />, text: "+66 94 398 6347" },
   { icon: <MailIcon size={20} />, text: "suchanartskn@gmail.com" },
   { icon: <HomeIcon size={20} />, text: "Pathumtani, Thailand" },
   { icon: <Calendar size={20} />, text: "Born on 5 April, 2003" },

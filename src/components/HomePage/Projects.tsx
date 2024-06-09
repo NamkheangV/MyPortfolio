@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "../ui/carousel";
 
-const ProjectData = [
+const projectData = [
   {
     image: "/images/work/1.png",
     category: "React js",
@@ -84,7 +84,7 @@ const MyProjects = () => {
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Carousel>
             <CarouselContent>
-              {ProjectData.slice(0, 4).map((project, index) => {
+              {projectData.slice(0, 4).map((project, index) => {
                 return (
                   <CarouselItem key={index} className="lg:basis-1/2">
                     <ProjectCard project={project} />
