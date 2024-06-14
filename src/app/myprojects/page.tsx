@@ -13,14 +13,6 @@ const projectData = [
     github: "https://github.com/NamkheangV/PetsHotel-FN",
   },
   {
-    image: "/images/work/2.png",
-    category: "Nuxt JS",
-    name: "Project 02",
-    description: "This is a project description",
-    link: "/myprojects",
-    github: "/",
-  },
-  {
     image: "/images/work/project04.png",
     category: "Flutter",
     name: "Stray Pets",
@@ -60,7 +52,7 @@ export default function MyProject() {
 
         {/* Tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] 
+          <TabsList className="w-full grid h-full md:grid-cols-3 lg:max-w-[640px] 
           mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return <TabsTrigger

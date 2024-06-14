@@ -18,7 +18,7 @@ const Hero = () => {
               Frontend Developer
             </div>
             <h1 className="h1 mb-1">Hello, My name is Suchanart</h1>
-            
+
             <TypeAnimation
               className="subtitle max-w-[490px] mx-auto xl:mx-0"
               sequence={[
@@ -40,8 +40,13 @@ const Hero = () => {
                 </Button>
               </Link>
               <Button variant="outline" className="gap-x-2">
-                Resume <Download size={18} />
+                <a 
+                href="./file/resume.pdf"
+                download={true}
+                >Resume</a>
+                <Download size={18} />
               </Button>
+
             </div>
 
             {/* Socials */}
