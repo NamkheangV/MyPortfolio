@@ -77,6 +77,10 @@ const config = {
         "spin-slow": "spin 12s linear infinite",
       },
       backgroundImage: {
+        hero: 'url("/me.png")',
+        hero_shape: 'url("/shape-1.svg")',
+        hero_shape2_light: 'url("/shape-2-light.svg")',
+        hero_shape2_dark: 'url("/shape-2-dark.svg")',
         cat: "url(/images/cat.png)",
         dots_light: "url(/images/dots-light.svg)",
         dots_dark: "url(/images/dots-dark.svg)",

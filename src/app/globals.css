@@ -54,6 +54,7 @@
 @layer base {
   * {
     @apply border-border;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }
   body {
     @apply bg-background text-foreground;

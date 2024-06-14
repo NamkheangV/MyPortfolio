@@ -53,13 +53,13 @@ const Hero = () => {
 
           {/* Image */}
           <div className="hidden xl:flex relative">
-            {/* <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-12 -right-2">
               <MyImage
-                containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-                imgSrc="/images/Head01.png"
+                containerStyles="bg-hero_shape w-[480px] h-[500px] bg-no-repeat relative bg-bottom"
+                imgSrc="/images/me.png"
               />
-            </div> */}
-            <img src="/images/Head01.png" alt="" className="max-h-[480px]" />
+            </div>
+            {/* <img src="/images/me.png" alt="" className="max-h-[480px]" /> */}
           </div>
         </div>
 

@@ -16,14 +16,13 @@ export default function Contact() {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Know Eatch Other.</h1>
             <p className="subtitle max-w-[480px]">
-              I'm always open to discussing product design work or partnership
-              opportunities.
+              I'm greatful to have you here. If you have any questions or want to work with me, feel free to contact me.
             </p>
           </div>
 
           {/* Illustration */}
-          <div className="hidden xl:flex w-full bg-contact_illustration_light
-          dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div>
+          {/* <div className="hidden xl:flex w-full bg-contact_illustration_light
+          dark:bg-contact_illustration_dark bg-contain bg-top bg-no-repeat"></div> */}
         </div>
 
         {/* Info and Form */}
@@ -35,7 +34,7 @@ export default function Contact() {
             {/* Email */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>youremail@gmail.com</div>
+              <div>suchanartskn@gmail.com</div>
             </div>
 
             {/* Address */}

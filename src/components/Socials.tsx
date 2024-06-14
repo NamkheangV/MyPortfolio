@@ -4,13 +4,19 @@ import {
   RiGithubFill,
   RiDiscordFill,
   RiInstagramFill,
+  RiLinkedinBoxFill
 } from "react-icons/ri";
 import Link from "next/link";
+import path from "path";
 
 const icons = [
   {
-    path: "/",
+    path: "/contact",
     name: <RiMailFill />,
+  },
+  {
+    path: "https://www.linkedin.com/in/suchanart-khumbungkhla-028688306/",
+    name: <RiLinkedinBoxFill />,
   },
   {
     path: "https://github.com/NamkheangV",
@@ -21,7 +27,7 @@ const icons = [
     name: <RiInstagramFill />,
   },
   {
-    path: "https://discord.gg/Q7VpBy4M",
+    path: "",
     name: <RiDiscordFill />,
   },
 ];

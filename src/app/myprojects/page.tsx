@@ -5,57 +5,39 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/images/work/1.png",
-    category: "React JS",
-    name: "Project 01",
-    description: "This is a project description",
+    image: "/images/work/project01.png",
+    category: "Next JS",
+    name: "Pets Hotel",
+    description: "Website for pet care hotels. That help customers find services for their pets.",
     link: "/myprojects",
-    github: "/",
+    github: "https://github.com/NamkheangV/PetsHotel-FN",
   },
   {
     image: "/images/work/2.png",
-    category: "Vue JS",
+    category: "Nuxt JS",
     name: "Project 02",
     description: "This is a project description",
     link: "/myprojects",
     github: "/",
   },
   {
-    image: "/images/work/3.png",
-    category: "React JS",
-    name: "Project 03",
-    description: "This is a project description",
+    image: "/images/work/project04.png",
+    category: "Flutter",
+    name: "Stray Pets",
+    description: "App designed for mobile application class that help stray animals find homes.",
     link: "/myprojects",
-    github: "/",
+    github: "https://github.com/NamkheangV/Stray-Pets",
   },
   {
-    image: "/images/work/4.png",
+    image: "/images/work/project03.png",
     category: "Next JS",
-    name: "Project 04",
-    description: "This is a project description",
-    link: "/myprojects",
-    github: "/",
-  },
-  {
-    image: "/images/work/2.png",
-    category: "React JS",
-    name: "Project 05",
-    description: "This is a project description",
-    link: "/myprojects",
-    github: "/",
-  },
-  {
-    image: "/images/work/4.png",
-    category: "React JS",
-    name: "Project 06",
-    description: "This is a project description",
-    link: "/myprojects",
-    github: "/",
+    name: "My Portfolio",
+    description: "Used to introduce all my abilities and past work experiences.",
+    link: "/",
+    github: "https://github.com/NamkheangV/MyPortfolio",
   },
 ];
 
-// remove category duplicates
-// console.log(projectData.map((item) => item.category))
 const uniqueCategories = [
   'all projects',
   ...new Set(projectData.map((item) => item.category))

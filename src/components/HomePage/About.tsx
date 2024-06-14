@@ -27,25 +27,19 @@ const qualificationsData = [
     data: [
       {
         place: "Suankularb Wittayalai Nonthaburi School",
-        qualitification: "Science-Mathematics Program",
+        qualitification: "Science - Mathematics Program",
         years: "2016 - 2021",
       },
       {
         place: "Rangsit University",
-        qualitification: "Bachelor of Science (Computer Science)",
+        qualitification: "Bachelor of Computer Science",
         years: "2021 - Present",
       },
     ],
   },
   {
     title: "experience",
-    data: [
-      {
-        company: "Freelance",
-        role: "Frontend Developer",
-        years: "None",
-      },
-    ],
+    data: [],
   },
 ];
 
@@ -53,16 +47,22 @@ const skillData = [
   {
     title: "skills",
     data: [
-      { name: "HTML, CSS" },
-      {
-        name: "JavaScript, TypeScript",
-      },
-      { name: "React, Next.js" },
+      { name: "HTML / CSS" },
+      { name: "JavaScript / TypeScript" },
+      { name: "React /  Vue" },
+      { name: "Dart" },
     ],
   },
   {
     title: "tools",
-    data: [{ imgPath: "/images/vscode.svg" }, { imgPath: "/images/figma.svg" }],
+    data: [
+      { imgPath: "/images/tailwind.svg" },
+      { imgPath: "/images/nextjs.svg" },
+      { imgPath: "/images/nuxtjs.svg" },
+      { imgPath: "/images/flutter.svg" },
+      { imgPath: "/images/vscode-logo.svg" },
+      { imgPath: "/images/figma.svg" },
+    ],
   },
 ];
 
@@ -105,10 +105,10 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      This show up and I'm so handsome
+                      Nice to meet you, I'm Suchanart
                     </h3>
                     <p className="subtitle max-w-xl max-auto xl:max-0">
-                      this follow for description something about me.
+                      you can get to know me better by reading the information
                     </p>
 
                     {/* Icons */}
@@ -130,7 +130,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Language Skill</div>
                       <div className="border-b border-border"></div>
-                      <div>Thai - English - Japanese</div>
+                      <div>Thai - English</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -138,7 +138,7 @@ const About = () => {
                 {/* Qualitifications */}
                 <TabsContent value="educations">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">My Awesome Journey</h3>
+                    <h3 className="h3 mb-8">My Growth Path</h3>
                     {/* Experience & Educations */}
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* Experience */}
@@ -231,7 +231,7 @@ const About = () => {
                     {/* Languages & Tools */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">
-                        Languages and Tools
+                        Languages
                       </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* List */}
@@ -255,11 +255,11 @@ const About = () => {
                     {/* Libraries & Frameworks */}
                     <div className="">
                       <h4 className="text-xl font-semibold mb-2 xl:text-left">
-                        Libraries and Frameworks
+                        Frameworks and Tools
                       </h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* List */}
-                      <div className="flex gap-x-8 justify-center xl:justify-start">
+                      <div className="flex gap-x-4 justify-center xl:justify-start">
                         {getData(skillData, "tools").data.map(
                           (item: any, index: any) => {
                             const { imgPath } = item;
@@ -267,8 +267,8 @@ const About = () => {
                               <div key={index}>
                                 <Image
                                   src={imgPath}
-                                  width={48}
-                                  height={48}
+                                  width={40}
+                                  height={40}
                                   alt=" priority"
                                 />
                               </div>
