@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Text */}
           <div className="flex max-w-[600px] flex-col jutify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font semibold mb-4 text-primary tracking-[4px]">
-              Frontend Developer
+              Junior Frontend Developer
             </div>
             <h1 className="h1 mb-1">Hello, My name is Suchanart</h1>
 
