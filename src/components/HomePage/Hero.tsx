@@ -20,11 +20,11 @@ const Hero = () => {
             <h1 className="h1 mb-1">Hello, My name is Suchanart</h1>
 
             <TypeAnimation
-              className="subtitle max-w-[490px] mx-auto xl:mx-0"
+              className="subtitle max-w-[480px] mx-auto xl:mx-0"
               sequence={[
-                "I am Frontend-Web and Application Programmer.",
+                "I'm undergraduate computer science student.",
                 1000,
-                "now I'm practicing for my fancy projects.",
+                "Interested in Front-End development and eager to learn new things.",
                 1000,
               ]}
               wrapper="span"

@@ -7,6 +7,14 @@ import {
   CarouselContent,
   CarouselItem,
 } from "../ui/carousel";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 
 const projectData = [
   {
@@ -44,9 +52,10 @@ const MyProjects = () => {
           className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left 
           mb-12 xl:h-[400px] flex flex-col justify-center"
         >
-          <h2 className="section-title mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <h2 className="section-title mb-4">My Projects</h2>
+          <p className="subtitle mb-8 mr-12">
+            Here are some of projects I have worked on.
+            {/* You can view more projects by clicking the button below. */}
           </p>
 
           <Link href="/myprojects">
