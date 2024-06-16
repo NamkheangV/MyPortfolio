@@ -41,8 +41,8 @@ const Hero = () => {
               </Link>
               <Button variant="outline" className="gap-x-2">
                 <a 
-                href="./file/resume.pdf"
-                // href="https://www.canva.com/design/DAF7cR3zUoc/hkOi7e74x2I7rnolFxUh_A/view?utm_content=DAF7cR3zUoc&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                // href="./file/resume.pdf"
+                href="https://www.canva.com/design/DAF7cR3zUoc/Iku-OZ_BRtSmZ4THeSYArA/view?utm_content=DAF7cR3zUoc&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                 download={true}
                 >Resume</a>
                 <Download size={18} />
