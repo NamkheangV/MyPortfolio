@@ -39,16 +39,15 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <a href="./file/resume.pdf" download={true}>
+              <Link href="https://www.canva.com/design/DAF7cR3zUoc/Iku-OZ_BRtSmZ4THeSYArA/view?utm_content=DAF7cR3zUoc&utm_campaign=designshare&utm_medium=link&utm_source=editor">
                 <Button variant="outline" className="gap-x-2">
                   {/* <a 
                 href="./file/resume.pdf"
                 download={true}
-                >Resume</a> */}
-                Resume
+                >Resume</a> */}Resume
                   <Download size={18} />
                 </Button>
-              </a>
+              </Link>
 
             </div>
 
