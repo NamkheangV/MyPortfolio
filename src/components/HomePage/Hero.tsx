@@ -39,15 +39,16 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Link href="https://./file/resume.pdf" download={true}>
+              <a href="./file/resume.pdf" download={true}>
                 <Button variant="outline" className="gap-x-2">
                   {/* <a 
                 href="./file/resume.pdf"
                 download={true}
                 >Resume</a> */}
+                Resume
                   <Download size={18} />
                 </Button>
-              </Link>
+              </a>
 
             </div>
 
