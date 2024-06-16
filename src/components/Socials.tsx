@@ -26,10 +26,10 @@ const icons = [
     path: "https://www.instagram.com/_iixxix/",
     name: <RiInstagramFill />,
   },
-  {
-    path: "",
-    name: <RiDiscordFill />,
-  },
+  // {
+  //   path: "",
+  //   name: <RiDiscordFill />,
+  // },
 ];
 
 const Socials = ({

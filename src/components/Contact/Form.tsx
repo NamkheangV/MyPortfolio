@@ -10,19 +10,19 @@ const Form = () => {
         <form className='flex flex-col gap-y-4'>
             {/* Name */}
             <div className='relative flex items-center'>
-                <Input type='name' id='name' placeholder='Name' />
+                <Input type='name' id='name' placeholder='Name' disabled />
                 <User className='absolute right-6' size={20} />
             </div>
 
             {/* Email */}
             <div className='relative flex items-center'>
-                <Input type='email' id='email' placeholder='Email' />
+                <Input type='email' id='email' placeholder='Email' disabled />
                 <MailIcon className='absolute right-6' size={20} />
             </div>
 
             {/* Phone */}
             <div className='relative flex items-center'>
-                <Textarea placeholder='Type Your Message.' />
+                <Textarea placeholder='Type Your Message.' disabled />
                 <MessageSquare className='absolute top-4 right-6' size={20} />
             </div>
             <Button disabled className='flex items-center gap-x-1 max-w-[166px]'>

@@ -24,7 +24,7 @@ const Hero = () => {
               sequence={[
                 "I'm undergraduate computer science student.",
                 1000,
-                "Interested in Front-End development and eager to learn new things.",
+                "Interested in Front-End development.",
                 1000,
               ]}
               wrapper="span"

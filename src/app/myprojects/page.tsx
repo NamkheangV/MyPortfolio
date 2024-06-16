@@ -28,6 +28,7 @@ const projectData = [
     description: "Website for pet care hotels. That help customers find services for their pets.",
     link: "/myprojects",
     github: "https://github.com/NamkheangV/PetsHotel-FN",
+    used: "Used : JavaScript - Typescript - Next JS - AntD",
     all_img: ["/images/work/01-1.png", "/images/work/01-2.png", "/images/work/01-3.png", "/images/work/01-4.png", "/images/work/01-5.png"]
   },
   {
@@ -37,7 +38,8 @@ const projectData = [
     description: "App designed for mobile application class that help stray animals find homes.",
     link: "/myprojects",
     github: "https://github.com/NamkheangV/Stray-Pets",
-    all_img: ["/images/work/02-1.png", "/images/work/02-3.png", "/images/work/02-4.png",]
+    used: "Used : Dart - Flutter - Node JS - Postgres SQL",
+    all_img: ["/images/work/02-1.png", "/images/work/02-2.png", "/images/work/02-3.png", "/images/work/02-4.png", "/images/work/02-5.png", "/images/work/02-6.png"]
   },
   {
     image: "/images/work/04.png",
@@ -46,6 +48,7 @@ const projectData = [
     description: "Used to introduce all my abilities and past work experiences.",
     link: "/",
     github: "https://github.com/NamkheangV/MyPortfolio",
+    used: "Used : TypeScript - Next JS - Tailwind - Shadcn UI",
     all_img: ["/images/work/04-1.png", "/images/work/04-2.png", "/images/work/04-3.png", "/images/work/04-4.png"]
   },
 ];
@@ -98,12 +101,12 @@ export default function MyProject() {
                     <DialogHeader>
                       <DialogTitle>{project.name}</DialogTitle>
                     </DialogHeader>
-                    {/* <DialogDescription>{project.description}</DialogDescription> */}
+                    <DialogDescription>{project.used}</DialogDescription>
                     <Carousel className="">
-                      <CarouselContent className="content-center">
+                      <CarouselContent>
                         {project.all_img.map((img, index) => {
                           return <CarouselItem key={index}>
-                            <img src={img} alt="" className="max-h-[500px]"/>
+                            <img src={img} alt="" className="max-h-[500px]" />
                           </CarouselItem>
                         })}
                       </CarouselContent>
