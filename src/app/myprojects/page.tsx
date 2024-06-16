@@ -103,7 +103,7 @@ export default function MyProject() {
                       <CarouselContent className="content-center">
                         {project.all_img.map((img, index) => {
                           return <CarouselItem key={index}>
-                            <img src={img} alt="" className="rounded-md max-h-[500px]"/>
+                            <img src={img} alt="" className="max-h-[500px]"/>
                           </CarouselItem>
                         })}
                       </CarouselContent>

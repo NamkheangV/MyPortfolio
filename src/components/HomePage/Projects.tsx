@@ -18,7 +18,7 @@ import {
 
 const projectData = [
   {
-    image: "/images/work/project01.png",
+    image: "/images/work/01.png",
     category: "Next JS",
     name: "Pets Hotel",
     description: "Website for pet care hotels. That help customers find services for their pets.",
@@ -26,7 +26,7 @@ const projectData = [
     github: "https://github.com/NamkheangV/PetsHotel-FN",
   },
   {
-    image: "/images/work/project04.png",
+    image: "/images/work/02.png",
     category: "Flutter",
     name: "Stray Pets",
     description: "App designed for mobile application class that help stray animals find homes.",
@@ -34,7 +34,7 @@ const projectData = [
     github: "https://github.com/NamkheangV/Stray-Pets",
   },
   {
-    image: "/images/work/project03.png",
+    image: "/images/work/04.png",
     category: "Next JS",
     name: "My Portfolio",
     description: "Used to introduce all my abilities and past work experiences.",
